@@ -1,6 +1,14 @@
 # Local Document AI Assistant
 
-A powerful local AI assistant that can process and understand your documents, providing intelligent responses based on your data. All processing happens locally, ensuring your data remains private.
+A powerful local AI assistant that can process and understand your documents, providing intelligent responses based on your data. All processing happens locally, ensuring your data remains private. This project is created for educational purposes to demonstrate the implementation of local AI document processing and retrieval systems.
+
+## Educational Purpose
+This project is designed as an educational resource to help developers understand:
+- Implementation of local AI processing systems
+- Document embedding and vector databases
+- Natural language processing with transformer models
+- Privacy-conscious AI application design
+- Integration of various document processing libraries
 
 ## Features
 - Process multiple document types (PDF, TXT, MD, DOCX)
@@ -55,3 +63,29 @@ Commands:
 
 ## Privacy
 All processing happens locally on your machine. No data is sent to external services except for the model inference which uses HuggingFace's API.
+
+## License
+This project is licensed under the MIT License - see below for details:
+
+```
+MIT License
+
+Copyright (c) 2024
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
