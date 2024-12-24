@@ -1,0 +1,23 @@
+assistant:
+  name: LocalAI
+  version: 0.1.0
+  language_model:
+    provider: huggingface
+    model_name: facebook/opt-350m
+    max_tokens: 512
+  
+features:
+  context_retention: true
+  memory_size: 5
+  
+privacy:
+  local_only: true
+  data_retention: false
+
+interaction:
+  mode: 
+    - cli
+    - api
+  response_style: 
+    creativity: 0.7
+    precision: 0.8

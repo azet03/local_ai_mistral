@@ -1,0 +1,3 @@
+
+Run the app with 'streamlit run main.py'
+Watch in : localhost:5000
